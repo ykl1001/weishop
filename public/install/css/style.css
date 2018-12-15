@@ -1,0 +1,62 @@
+﻿body{background: #fff; color: #555; margin: 0; padding: 0; font-size: 14px; font-family: "微软雅黑"; cursor: default;}
+input,select,textarea{outline: none;}
+a:hover{text-decoration: none;}
+.inner{width: 1000px; margin: 0 auto;}
+/* input placeholder字体样式 */
+::-webkit-input-placeholder{color:#ababab;}
+:-moz-placeholder{color:#ababab;}
+::-moz-placeholder{color:#ababab;}
+:-ms-input-placeholder{color:#ababab;}
+
+.w700{max-width: 700px;}
+/* 导航 */
+.header{height: 90px; background: url(../images/header.jpg); color: #fff; padding: 0 20px;}
+.logo{margin: 25px 12px 0 0;}
+.header .he1{font-size: 24px; padding-left: 15px; border-left: 1px solid #fff; height: 20px; display: inline-block; line-height: 15px; vertical-align: 5px;}
+.header .f14{margin-top: 43px;}
+.main{padding: 20px; background: #f4f4f4; border-bottom: 1px solid #ddd; border-top: 1px solid #fff;}
+.main .x-shouc{border: 1px solid #ddd; border-radius: 5px; max-height: 500px; overflow: auto; padding: 20px 15px; background: #fff;}
+.main .x-shouc1{font-weight: bold; text-align: center; font-size: 14px;}
+.main .x-shouc p{text-indent: 23px; font-size: 12px;}
+.btn{min-width: 105px; line-height: 32px; padding: 0 7px; background: #5d7bb3; background-image: linear-gradient(to bottom, #6988c3, #526fa5); border: 1px solid #5b78b0; box-shadow: 0px 0px 5px #8d8d8d; display: inline-block; color: #fff;}
+.btn:hover{background: #5d7bb3;}
+.btn2{background: #f8f8f9; background-image: linear-gradient(to bottom, #fefefe, #eff0f1); border: 1px solid #ddd; color: #555; box-shadow: 0px 0px 5px #d4d4d4;}
+.btn2:hover{background: #f8f8f9;}
+.main .x-bor{padding: 10px 15px;}
+.main .x-bor p{text-indent: 0px;}
+.x-ok{padding: 20px 0 10px;}
+.x-ok img{vertical-align: middle; margin-right: 15px;}
+.x-form{border-bottom: 1px solid #ddd; padding-bottom: 15px; font-size: 12px; color: #777;}
+.x-form p{margin-bottom: 15px;}
+.x-form label{width: 210px; padding-right: 10px; text-align: right; display: inline-block;}
+.x-form input{width: 280px; height: 30px; padding: 0 20px; border: 1px solid #ddd; font-size: 12px;}
+.x-form .x-error{border: 1px solid #ae4a44;}
+.x-form .x-pserror{margin:-15px 0 0 0; line-height: 40px; color: #ae4a44;}
+.x-form .x-errorico{width: 14px; height: 14px; background: url(../images/error.png) no-repeat; display: inline-block; margin: 0 7px; vertical-align: -2px;}
+.x-form .btn{width: auto; cursor: pointer; border: 1px solid #5b78b0; font-size: 14px; line-height: 0;}
+.x-form .btn2{border: 1px solid #ddd;}
+.br0{border: 0; padding-bottom: 0;}
+.x-form .mb0{margin-bottom: 0;}
+.footer{line-height: 35px; background: #f4f4f4; border-top: 1px solid #fff; font-size: 12px; text-align: center;}
+
+
+
+
+
+
+
+
+
+.y-top{margin:0 auto;text-align: center;background: #f4f4f4;padding: 46px 0 38px;border-bottom: 1px solid #ddd;}
+.y-main{border-top: 1px solid #fff;}
+.y-top img{max-width: 100%;}
+.y-maintop{padding-bottom: 18px;border-bottom: 1px solid #ddd;}
+.y-mainbtm{padding-top: 20px;}
+table tr th{width: 160px;text-align: left;line-height: 40px;color: #7796d1;font-size: 14px;}
+table tr td{font-size: 12px;line-height: 30px;}
+.y-w180{width: 180px;}
+.y-iconok{background: url(../images/okimg.png) left center no-repeat;padding-left: 20px;}
+.y-iconbad{background: url(../images/badimg.png) left center no-repeat;padding-left: 20px;}
+
+
+

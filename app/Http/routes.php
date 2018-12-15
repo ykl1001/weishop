@@ -1,0 +1,31 @@
+<?php
+error_reporting(E_ERROR);
+include base_path().'/app/Utils/Common.php';
+
+    $host = explode('.', Request::server('HTTP_HOST'));
+    $domain = array_shift($host);
+    $host   = implode('.', $host);
+    $domains = array(
+        'www'       => 'www',
+        'admin'     => 'admin',
+        'api'       => 'api',
+        'seller'    => 'seller',
+        'staff'     => 'staff',
+        'callback'  => 'callback',
+        'wap'       => 'wap',
+        'resource'  => 'resource',
+        'install'   => 'install',
+        'proxy'     => 'proxy'
+    );
+
+    if(isset($domains[$domain])){
+        $domain = $domains[$domain];
+        define('SERVICE_DOMAIN', $domain);
+        if ($domain == 'api') {
+            include 'routes_api.php';
+        } else {
+            include 'routes_web.php';
+        }
+    } else {
+        App::abort(404);
+    }

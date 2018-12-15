@@ -1,0 +1,1 @@
+您的{{$type}}费户号为{{$account}}缴费{{$state}}
